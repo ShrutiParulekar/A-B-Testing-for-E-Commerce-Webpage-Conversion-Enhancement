@@ -1,7 +1,4 @@
-# A-B-Testing-for-E-Commerce-Webpage-Conversion-Enhancement
-This project involved A/B testing in an e-commerce setting to evaluate the impact of a new webpage design on conversion rates. Analyzing over 290K user sessions, I compared the old and new designs using Z-score and P-value calculations. Results showed no statistically significant improvement, leading to a data-driven decision to retain the design.
-
-# Data-Driven Optimization: A/B Testing for E-Commerce Webpage Conversion Enhancement
+# A/B Testing for E-Commerce Webpage Conversion Enhancement
 
 ## Project Overview
 This project focuses on the application of A/B testing to evaluate the impact of a new webpage design on conversion rates in an e-commerce environment. By comparing user interactions on two different versions of a webpage (the existing design and a new proposed design), I aimed to determine whether the new design would lead to a statistically significant improvement in conversion rates.
