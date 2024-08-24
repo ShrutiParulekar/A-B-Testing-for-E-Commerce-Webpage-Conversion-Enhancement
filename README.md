@@ -51,6 +51,4 @@ While the current A/B test did not yield a statistically significant result, the
 - **User Behavior Analysis**: Conduct in-depth analysis of user behavior to identify specific pain points or areas for optimization.
 - **Segmented Testing**: Perform A/B tests on specific user segments (e.g., based on geography or device type) to see if the new design performs better in certain contexts.
 
-## Acknowledgments
-This project was a valuable learning experience in applying statistical analysis to real-world e-commerce challenges. I would like to thank the online resources and communities that provided support and guidance throughout this project.
 
