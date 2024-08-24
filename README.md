@@ -13,7 +13,7 @@ Objective: The objective of the experiment is to determine whether the new web p
 
 Hypotheses:
 
-Null Hypothesis (H0): The conversion rate of the old page is equal to or higher than the conversion rate of the new page.
+Null Hypothesis (H0): The conversion rate of the old page is equal to or higher than the conversion rate of the new page. <br>
 Alternative Hypothesis (H1): The conversion rate of the new page is higher than the conversion rate of the old page.
 
 ## Dataset
