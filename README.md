@@ -11,6 +11,14 @@ This project focuses on the application of A/B testing to evaluate the impact of
 ## Objective
 The primary goal of this project was to use data-driven techniques to assess whether the new webpage design could enhance user conversions compared to the existing design. The A/B test was designed to provide insights that would inform a decision on whether to implement the new design, keep the current one, or explore further optimization opportunities.
 
+##Design of the experiment¶
+Objective: The objective of the experiment is to determine whether the new web page leads to a higher conversion rate compared to the old page for an e-commerce website.
+
+Hypotheses:
+
+Null Hypothesis (H0): The conversion rate of the old page is equal to or higher than the conversion rate of the new page.
+Alternative Hypothesis (H1): The conversion rate of the new page is higher than the conversion rate of the old page.
+
 ## Dataset
 The project utilized a dataset containing over 290,000 user sessions, including information on which version of the webpage the user was exposed to (`old_page` or `new_page`), and whether the user converted (completed a desired action, such as making a purchase).
 
