@@ -6,6 +6,8 @@ This project involved A/B testing in an e-commerce setting to evaluate the impac
 ## Project Overview
 This project focuses on the application of A/B testing to evaluate the impact of a new webpage design on conversion rates in an e-commerce environment. By comparing user interactions on two different versions of a webpage (the existing design and a new proposed design), I aimed to determine whether the new design would lead to a statistically significant improvement in conversion rates.
 
+<img width="1098" alt="Screen Shot 2024-08-24 at 12 02 04 PM" src="https://github.com/user-attachments/assets/a9942767-d163-4b93-8f68-a8c62fa4524c">
+
 ## Objective
 The primary goal of this project was to use data-driven techniques to assess whether the new webpage design could enhance user conversions compared to the existing design. The A/B test was designed to provide insights that would inform a decision on whether to implement the new design, keep the current one, or explore further optimization opportunities.
 
