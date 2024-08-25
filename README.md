@@ -1,8 +1,7 @@
 # A/B Testing for E-Commerce Webpage Conversion Enhancement
 
 ## Project Overview
-Project Overview
-In this project, I set out to explore whether a new webpage design could enhance the user experience and increase conversions in an e-commerce setting. The focus wasn't just on running an A/B test, but on understanding the user journey and identifying the impact of specific design changes on user behavior.  
+In this project, I set out to explore whether a new webpage design could enhance the user experience and increase conversions in an e-commerce setting. The focus wasn't just on running an A/B test, but on understanding the user journey and identifying the impact of specific design changes on user behavior.  <br>
 
 <img width="1098" alt="Screen Shot 2024-08-24 at 12 02 04 PM" src="https://github.com/user-attachments/assets/a9942767-d163-4b93-8f68-a8c62fa4524c">
 
@@ -13,11 +12,11 @@ Hypotheses:
 Null Hypothesis (H0): The conversion rate of the old page is equal to or higher than the conversion rate of the new page. <br>
 Alternative Hypothesis (H1): The conversion rate of the new page is higher than the conversion rate of the old page.
 
-##Design Feature
+## Design Feature
 
 The design feature at the center of this study was a redesigned call-to-action section, intended to make the next steps more obvious and appealing to users. This change aimed to streamline the user journey, reduce friction, and ultimately increase conversions by making it easier for users to complete their purchases.
 
-##Problem Statement
+## Problem Statement
 
 The key question driving this project was: Would this specific design change improve user engagement and lead to a higher rate of conversions? By running an A/B test, I aimed to gather insights that could either confirm the new design’s effectiveness or suggest that further refinements were needed.
 
