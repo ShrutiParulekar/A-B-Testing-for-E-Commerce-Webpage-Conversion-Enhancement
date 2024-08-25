@@ -1,20 +1,27 @@
 # A/B Testing for E-Commerce Webpage Conversion Enhancement
 
 ## Project Overview
-This project focuses on the application of A/B testing to evaluate the impact of a new webpage design on conversion rates in an e-commerce environment. By comparing user interactions on two different versions of a webpage (the existing design and a new proposed design), I aimed to determine whether the new design would lead to a statistically significant improvement in conversion rates.
+Project Overview
+In this project, I set out to explore whether a new webpage design could enhance the user experience and increase conversions in an e-commerce setting. The focus wasn't just on running an A/B test, but on understanding the user journey and identifying the impact of specific design changes on user behavior.  
 
 <img width="1098" alt="Screen Shot 2024-08-24 at 12 02 04 PM" src="https://github.com/user-attachments/assets/a9942767-d163-4b93-8f68-a8c62fa4524c">
 
 ## Objective
-The primary goal of this project was to use data-driven techniques to assess whether the new webpage design could enhance user conversions compared to the existing design. The A/B test was designed to provide insights that would inform a decision on whether to implement the new design, keep the current one, or explore further optimization opportunities.
-
-## Design of the experiment
-Objective: The objective of the experiment is to determine whether the new web page leads to a higher conversion rate compared to the old page for an e-commerce website.
-
+The primary goal was to assess if the new webpage design—crafted to simplify navigation and highlight key actions—would lead to more users completing their desired actions, such as making a purchase. The A/B test served as a tool to uncover whether this design change would truly resonate with users, or if the existing design was already optimized for conversions.
 Hypotheses:
 
 Null Hypothesis (H0): The conversion rate of the old page is equal to or higher than the conversion rate of the new page. <br>
 Alternative Hypothesis (H1): The conversion rate of the new page is higher than the conversion rate of the old page.
+
+##Design Feature
+
+The design feature at the center of this study was a redesigned call-to-action section, intended to make the next steps more obvious and appealing to users. This change aimed to streamline the user journey, reduce friction, and ultimately increase conversions by making it easier for users to complete their purchases.
+
+##Problem Statement
+
+The key question driving this project was: Would this specific design change improve user engagement and lead to a higher rate of conversions? By running an A/B test, I aimed to gather insights that could either confirm the new design’s effectiveness or suggest that further refinements were needed.
+
+
 
 ## Dataset
 The project utilized a dataset containing over 290,000 user sessions, including information on which version of the webpage the user was exposed to (`old_page` or `new_page`), and whether the user converted (completed a desired action, such as making a purchase).
@@ -24,23 +31,20 @@ The project utilized a dataset containing over 290,000 user sessions, including 
 - **page_version**: Indicates whether the user saw the `old_page` or `new_page`.
 - **converted**: Binary variable indicating whether the user converted (1 for conversion, 0 for no conversion).
 
-## Methodology
+## Approach
+To answer this question, I compared user behavior on two versions of the webpage: the existing design and the newly proposed design. The A/B test allowed me to observe real user interactions with both designs, providing a direct comparison of their effectiveness.
 
-### Data Preparation:
-- Merged and cleaned datasets to ensure consistency.
-- Filtered data to remove any inconsistencies, ensuring that users in the control group only saw the old page and users in the treatment group only saw the new page.
+## What I Achieved
+Through this project, I gained valuable insights into how users interact with different webpage designs. The analysis helped me understand the strengths and weaknesses of the new design and whether it had the potential to replace the existing version.
 
-### Statistical Analysis:
-- Calculated conversion rates for both the control (`old_page`) and treatment (`new_page`) groups.
-- Performed a Z-test to compare the conversion rates between the two groups.
+## What’s Next?
+While the initial analysis provided important insights, there are several areas that warrant further exploration:
 
-### Key Metrics:
-- **Z-Score**: 1.37
-- **P-Value**: 0.17
-- **Conversion Rate Difference**: 0.2%
+- User Behavior Analysis: To gain a deeper understanding of why users might prefer one design over another, I would analyze more granular data on user interactions, such as click paths, time spent on each section, and user feedback.
 
-## Results
-The Z-score of 1.37 and a P-value of 0.17 indicated that the observed difference in conversion rates between the control and treatment groups was not statistically significant at the 95% confidence level. The slight increase in conversion rate for the new page (0.2%) did not provide enough evidence to justify implementing the new design.
+- Segmentation: Future analysis could focus on different user segments, such as first-time visitors versus returning customers, or mobile users versus desktop users, to see if the design change impacts these groups differently.
+
+Additional Data Sources: Incorporating data from user surveys, heatmaps, and session recordings could provide richer insights into user preferences and pain points. This would help in refining the design further or identifying other areas of the webpage that could benefit from similar optimizations
 
 ## Conclusion
 Based on the results of the A/B test, I concluded that there is not enough evidence to support a significant improvement in conversion rates with the new webpage design. Therefore, I recommended maintaining the existing design while considering further tests or alternative strategies to optimize conversion rates.
